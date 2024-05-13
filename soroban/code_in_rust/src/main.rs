@@ -1,17 +1,12 @@
 fn main() {
   let x: i32 = 16;
-  println("{}", x);
+  println!("{}", x);
 
   let z: String = String::from("Hello, Soroban!");
   let y: &str = "Hello, Steller!";
 
-  println!("{y}")
-  println!("{z}")
+  println!("{}", y); // Corrected: Use curly braces for interpolation
+  println!("{}", z); // Corrected: Use curly braces for interpolation
 
-
-  pub fn  event(){
-    let name: String = String::from("James");
-    println("{}", name);
-  }
-            
+  
 }
